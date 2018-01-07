@@ -1,6 +1,8 @@
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.SequenceInputStream;
+import java.util.Enumeration;
+import java.util.Vector;
 
 /**
  * Created by Darush on 1/7/2018.
@@ -24,6 +26,27 @@ public class SequenceInputStreamDemo {
 
 
             // Read data using enumeration
+            System.out.println("\n>>>>>>>>>>>>Read using enumeration:<<<<<<<<<<<");
+            FileInputStream input1 = new FileInputStream("files/a.txt");
+            FileInputStream input2 = new FileInputStream("files/b.txt");
+            FileInputStream input3 = new FileInputStream("files/c.txt");
+            FileInputStream input4 = new FileInputStream("files/d.txt");
+            Vector<FileInputStream> vector = new Vector<>();
+            vector.add(input1);
+            vector.add(input2);
+            vector.add(input3);
+            vector.add(input4);
+            Enumeration<FileInputStream> enumeration = vector.elements();
+            SequenceInputStream sequence = new SequenceInputStream(enumeration);
+            int i = 0;
+            while((i=sequence.read()) != -1) {
+                System.out.print((char) i);
+            }
+            sequence.close();
+            input1.close();
+            input2.close();
+            input3.close();
+            input4.close();
 
         } catch (Exception e) {
 
