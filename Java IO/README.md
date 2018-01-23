@@ -1,2 +1,2 @@
 # Java-Examples
-Example projects showcasing different Java classes
+Java I/O examples.
