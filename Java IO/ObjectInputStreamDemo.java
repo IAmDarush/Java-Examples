@@ -15,6 +15,7 @@ public class ObjectInputStreamDemo {
             Student student = (Student) objectInput.readObject();
             System.out.println("Student id: " + student.id);
             System.out.println("Student name: " + student.name);
+            System.out.println("Student name: " + student.age);
         } catch (IOException e) {
             e.printStackTrace();
         } catch (ClassNotFoundException e) {

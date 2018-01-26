@@ -7,7 +7,7 @@ public class ObjectOutputStreamDemo {
 
     public static void main(String[] args) {
 
-        Student student = new Student(1, "Darush");
+        Student student = new Student(1, "Darush", 30);
 
         try {
             FileOutputStream fileOutput = new FileOutputStream("files/object.txt");
