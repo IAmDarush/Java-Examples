@@ -1,14 +1,14 @@
+package example1;
+
 import java.rmi.Naming;
 
-public class MyClient {
+public class MyServer {
 
     public static void main(String[] args) {
 
         try {
-
-            Adder stub = (Adder) Naming.lookup("rmi://localhost:5000/darush");
-            System.out.println(stub.add(45, 5));
-
+            Adder stub = new AdderRemote();
+            Naming.rebind("rmi://localhost:5000/darush", stub);
         } catch (Exception e) {
             System.out.println(e);
         }
