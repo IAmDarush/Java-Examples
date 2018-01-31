@@ -8,7 +8,6 @@ import java.util.List;
 
 public class BankImpl extends UnicastRemoteObject implements Bank {
 
-
     protected BankImpl() throws RemoteException {}
 
     @Override
