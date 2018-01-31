@@ -3,6 +3,7 @@ package example2;
 import java.io.Serializable;
 
 public class Customer implements Serializable {
+
     private int acc_no;
     private String firstName;
     private String lastName;
