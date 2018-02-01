@@ -15,8 +15,8 @@ public class BankImpl extends UnicastRemoteObject implements Bank {
         List<Customer> list = new ArrayList<>();
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/customers?useSSL=false", "root", "123mysql");
-            PreparedStatement statement = connection.prepareStatement("select * from darush");
+            Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/darush?useSSL=false", "root", "123mysql");
+            PreparedStatement statement = connection.prepareStatement("select * from customers");
             ResultSet resultSet = statement.executeQuery();
 
             while (resultSet.next()) {
