@@ -5,9 +5,12 @@ public class LocalInnerClassDemo {
 
     void display() {
         class Local {
+            int localVariable = 50;
+
             void msg(){
-                System.out.println(data);
+                System.out.println(data + localVariable);
             }
+
         }
 
         Local local = new Local();
