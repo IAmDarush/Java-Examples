@@ -9,9 +9,13 @@ public class CallPrivateMethodDemo {
 
             Class c = Class.forName("A");
             Object object = c.newInstance();
-            Method method = c.getDeclaredMethod("message", (Class[]) null);
-            method.setAccessible(true);
-            method.invoke(object, null);
+            Method message = c.getDeclaredMethod("message", (Class[]) null);
+            message.setAccessible(true);
+            message.invoke(object, null);
+
+            Method message2 = c.getDeclaredMethod("message", String.class);
+            message2.setAccessible(true);
+            message2.invoke(object, "Darush");
 
         } catch (ClassNotFoundException |
                 IllegalAccessException |
