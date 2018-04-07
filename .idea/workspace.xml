@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30993cec-2cef-4cfe-8bfd-4f8893f9f0f0" name="Default" comment="Long to String example">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/conversion/LongToString.java" />
+    <list default="true" id="30993cec-2cef-4cfe-8bfd-4f8893f9f0f0" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/conversion/StringToFloat.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Exmples/main/java/conversion/TextAnalysisPartC.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java-Exmples/main/java/conversion/TextAnalyzerPartMe.class" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="LongToString.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/conversion/LongToString.java">
+      <file leaf-file-name="StringToFloat.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/conversion/StringToFloat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="136">
+              <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -92,6 +93,7 @@
         <option value="$PROJECT_DIR$/src/main/java/conversion/TextAnalyzerPartC.java" />
         <option value="$PROJECT_DIR$/src/main/java/conversion/TextAnalysisPartC.java" />
         <option value="$PROJECT_DIR$/src/main/java/conversion/LongToString.java" />
+        <option value="$PROJECT_DIR$/src/main/java/conversion/StringToFloat.java" />
       </list>
     </option>
   </component>
@@ -199,32 +201,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LongToString">
+  <component name="RunManager" selected="Application.StringToFloat">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
-    </configuration>
-    <configuration name="FileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="main.java.io.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="main.java.io.FileDemo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Java-Exmples" />
-      <envs />
     </configuration>
     <configuration name="FileDescriptorDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -253,6 +236,25 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="main.java.conversion.LongToString" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Java-Exmples" />
+      <envs />
+    </configuration>
+    <configuration name="StringToFloat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="main.java.conversion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="main.java.conversion.StringToFloat" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -377,19 +379,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.FileDemo" />
-      <item index="1" class="java.lang.String" itemvalue="Application.FileDescriptorDemo" />
-      <item index="2" class="java.lang.String" itemvalue="Application.StringToLong" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TextAnalysisPartC" />
-      <item index="4" class="java.lang.String" itemvalue="Application.LongToString" />
+      <item index="0" class="java.lang.String" itemvalue="Application.FileDescriptorDemo" />
+      <item index="1" class="java.lang.String" itemvalue="Application.StringToLong" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TextAnalysisPartC" />
+      <item index="3" class="java.lang.String" itemvalue="Application.LongToString" />
+      <item index="4" class="java.lang.String" itemvalue="Application.StringToFloat" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.LongToString" />
-        <item index="1" class="java.lang.String" itemvalue="Application.TextAnalysisPartC" />
-        <item index="2" class="java.lang.String" itemvalue="Application.StringToLong" />
-        <item index="3" class="java.lang.String" itemvalue="Application.FileDescriptorDemo" />
-        <item index="4" class="java.lang.String" itemvalue="Application.FileDemo" />
+        <item index="0" class="java.lang.String" itemvalue="Application.StringToFloat" />
+        <item index="1" class="java.lang.String" itemvalue="Application.LongToString" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TextAnalysisPartC" />
+        <item index="3" class="java.lang.String" itemvalue="Application.StringToLong" />
+        <item index="4" class="java.lang.String" itemvalue="Application.FileDescriptorDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -421,7 +423,21 @@
       <option name="project" value="LOCAL" />
       <updated>1522947442857</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Long to String example">
+      <created>1523036249917</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1523036249917</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Long to String example">
+      <created>1523036300573</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1523036300573</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -460,20 +476,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="New project structure based on Maven" />
     <MESSAGE value="String to Long example" />
-    <option name="LAST_COMMIT_MESSAGE" value="String to Long example" />
+    <MESSAGE value="Long to String example" />
+    <option name="LAST_COMMIT_MESSAGE" value="Long to String example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/innerclass/StaticNestedClassDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/out/production/Java-Exmples/main/java/innerclass/AnonymousInnerClassDemo.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -813,8 +823,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/conversion/LongToString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="272">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/conversion/StringToFloat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="35" lean-forward="true" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
           <folding />
         </state>
       </provider>
