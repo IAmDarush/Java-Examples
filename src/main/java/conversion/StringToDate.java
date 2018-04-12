@@ -10,9 +10,16 @@ public class StringToDate {
 
         String string = "2018/04/11";
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy/MM/dd");
+
+        String string1 = "Thu, Apr 12 2018 23:18:14";
+        SimpleDateFormat formatter1 = new SimpleDateFormat("E, MMM dd yyyy HH:mm:ss");
+
         try {
             Date date = formatter.parse(string);
             System.out.println(date);
+
+            Date date1 = formatter1.parse(string1);
+            System.out.println(date1);
         } catch (ParseException e) {
             e.printStackTrace();
         }
