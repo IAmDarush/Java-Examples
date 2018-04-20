@@ -13,8 +13,11 @@ public class ObjectToString {
 
         StringBuilder stringBuilder = new StringBuilder("Hello");
         stringBuilder.reverse();
+        stringBuilder.append((String) null);
         String reverse = stringBuilder.toString();
         System.out.println(reverse);
+
+        System.out.println("hello: " + null);
 
     }
 
