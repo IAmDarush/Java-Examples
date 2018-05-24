@@ -8,7 +8,7 @@ interface Sayable {
     String say();
 }
 
-public class LambdaExpressions {
+public class LambdaExpressions1 {
 
     public static void main(String[] args) {
 

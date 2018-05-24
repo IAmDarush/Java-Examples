@@ -6,7 +6,7 @@ interface Addable {
 
 }
 
-public class LambdaExpressionsWithParameters {
+public class LambdaExpressions2 {
 
     public static void main(String[] args) {
 
