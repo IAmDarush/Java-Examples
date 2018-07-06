@@ -2,6 +2,7 @@ package main.java.java8features;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 import java.util.stream.Collectors;
 
@@ -25,6 +26,11 @@ public class StreamExample6 {
                 .map(product -> product.price)
                 .collect(Collectors.toSet());
         System.out.println(productPriceList);
+
+        // Convert list to map
+        Map<Integer, String> productListMap = productList.stream()
+                .collect(Collectors.toMap(product -> product.id, product -> product.name));
+        System.out.println(productListMap);
 
     }
 
