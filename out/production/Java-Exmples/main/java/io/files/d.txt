@@ -1,1 +1,0 @@
-CharArrayWriter example
