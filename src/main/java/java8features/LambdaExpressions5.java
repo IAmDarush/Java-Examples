@@ -4,32 +4,6 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-class Product {
-
-    int id;
-    String name;
-    float price;
-
-    public Product(int id, String name, float price) {
-        super();
-        this.id = id;
-        this.name = name;
-        this.price = price;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public float getPrice() {
-        return price;
-    }
-}
-
 public class LambdaExpressions5 {
 
     public static void main(String[] args) {
