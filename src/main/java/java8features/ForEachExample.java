@@ -19,6 +19,9 @@ public class ForEachExample {
         System.out.println("Iterating using lambda expression:------");
         fruitList.forEach(fruit -> System.out.println(fruit));
 
+        System.out.println("Iterating using method reference:------");
+        fruitList.forEach(System.out::println);
+
     }
 
 }
